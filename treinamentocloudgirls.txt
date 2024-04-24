@@ -1,0 +1,104 @@
+<meta charset="UTF-8"> resolve o problema de acentuação e a segunda define o mundo JavaScript,
+ pois é entre a abertura da tag <script> e seu fechamento </script> que escreveremos os códigos dinâmicos!
+
+
+mundo html 
+mundo javaScript 
+sempre em letra minuscula 
+
+document.write("xxxx")
+
+sintaxe 
+string
+
+ctrl S 
+ctrl O 
+ctrl 
+java é uma linguagem dinâmica
+
+<br> pula linha
+quando coloca numero nao coloca entre ", entre " é texto 
+por ex soma document.write (18 + 20) 
+
++
+variavéis
+var ano = (= diz recebe) 2016;
+var ano = 2016;
+string se estivesse entre " >>> string é texto
+
+math.round (media) - arredondar a media por ex	
+variavel sempre começa com letra minuscula, geralmente prox vem em letra maiuscula
+idadeBarney
+
+pular 2 linhas 
+colocar os <br> juntos na mesma linha
+var puloLinha = "<br>"; ***pode colocar mais linhas aqui***
+document.write(puloLinha);
+
+como criar a função dentro do java 
+declarar no inicio 
+function pulaLinha () { 
+	document.write("<br>");
+} 
+pode pular varias linhas na mesma função por ex, função é um atalho para outras instruções que quer realizar no programa
+ 
+
+
+paragraffo tag <p>
+<meta>
+
+<big>
+</big>
+
+todo programa a partir de agora, function pulalinha e function mostra
+pode receber 2 parametros tbm
+
+NaN not a number > problema matematico
+return
+
+
+prompt
+parseInt(
+
+simbolo de = é o ==
+if 
+if tem que ser em blocos abre e fecha { } 
+
+
+&& e dentro do if 
+diferente !=
+
+else se não
+math.random()
+mathround(math.random()*10);
+
+
+while(true) {
+repete
+
+while(ex anoCopa <=2016) {`
+
+
+for (3 espaços)
+++ acrescentar de 1 em 1 
+
+ex multiplicador++ 
+multiplicador = multiplicador + 1 /// multiplicador++ 
+
+break para o loop anterior
+
+array lista, sequencia
+sempre começa no 0 
+
+
+.js
+ex notas.push
+const 
+length
+
+notas.pop para tirar o ultimo elemento do array 
+
+***estudar de novo os array***
+preciso do node js
+
+

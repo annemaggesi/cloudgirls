@@ -1,0 +1,73 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(0, 0, 600, 400);
+
+    function desenhaG(x, y, raio, cor) {
+
+        pincel.fillStyle = cor;
+        pincel.beginPath();
+        pincel.arc(x, y, raio, 0, 2 * 3.14);
+        pincel.fill();
+    }
+
+function desenhaGirls (x,y) {
+    desenhaG(x, y+20, 10, 'magenta');
+    desenhaG(x, y+40, 10, 'magenta');
+    desenhaG(x, y+60, 10, 'magenta');
+    desenhaG(x, y, 10, 'magenta');
+    desenhaG(x+20, y, 10, 'magenta');
+    desenhaG(x+20, y+60, 10, 'magenta');
+    desenhaG(x+40, y+60, 10, 'magenta');
+    desenhaG(x+40, y, 10, 'magenta');
+    desenhaG(x+80, y, 10, 'magenta');
+    desenhaG(x+80, y+20, 10, 'magenta');
+    desenhaG(x+80, y+40, 10, 'magenta');
+    desenhaG(x+80, y+60, 10, 'magenta');
+    desenhaG(x+100, y+60, 10, 'magenta');
+    desenhaG(x+120, y+60, 10, 'magenta');
+    desenhaG(x+160, y, 10, 'magenta');
+    desenhaG(x+160, y+20, 10, 'magenta');
+    desenhaG(x+160, y+40, 10, 'magenta');
+    desenhaG(x+160, y+60, 10, 'magenta');
+    desenhaG(x+180, y+60, 10, 'magenta');
+    desenhaG(x+200, y+60, 10, 'magenta');
+    desenhaG(x+220, y+60, 10, 'magenta');
+    desenhaG(x+220, y, 10, 'magenta');
+    desenhaG(x+220, y+20, 10, 'magenta');
+    desenhaG(x+220, y+40, 10, 'magenta');
+    desenhaG(x+220, y+60, 10, 'magenta');
+    desenhaG(x+180, y, 10, 'magenta');
+    desenhaG(x+200, y, 10, 'magenta');
+
+    desenhaG(x+260, y, 10, 'magenta');
+    desenhaG(x+260, y+20, 10, 'magenta');
+    desenhaG(x+260, y+40, 10, 'magenta');
+    desenhaG(x+260, y+60, 10, 'magenta');
+    desenhaG(x+260, y+60, 10, 'magenta');
+    desenhaG(x+280, y+60, 10, 'magenta');
+    desenhaG(x+300, y+60, 10, 'magenta');
+    desenhaG(x+320, y, 10, 'magenta');
+    desenhaG(x+320, y+20, 10, 'magenta');
+    desenhaG(x+320, y+40, 10, 'magenta');
+    desenhaG(x+320, y+60, 10, 'magenta');
+
+    desenhaG(x+360, y, 10, 'magenta');
+    desenhaG(x+360, y+20, 10, 'magenta');
+    desenhaG(x+360, y+40, 10, 'magenta');
+    desenhaG(x+360, y+60, 10, 'magenta');
+    desenhaG(x+380, y, 10, 'magenta');
+    desenhaG(x+400, y+1, 10, 'magenta');
+    desenhaG(x+410, y+20, 10, 'magenta');
+    desenhaG(x+410, y+40, 10, 'magenta');
+    desenhaG(x+410, y+60, 10, 'magenta');
+    desenhaG(x+380, y+60, 10, 'magenta');
+    desenhaG(x+390, y+60, 10, 'magenta');
+    
+}
+desenhaGirls(100,100);
+</script>

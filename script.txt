@@ -1,0 +1,13 @@
+CTRL O PARA ABRIR O ARQUIVO NO CHROME
+
+
+quando necessário, e F12 para abrir a janela das ferramentas de desenvolvedor (DevTools)
+
+string dados - texto
+
+poliglota
+
+tag script .. java script 
+alert 
+
+<meta charset="latin">
